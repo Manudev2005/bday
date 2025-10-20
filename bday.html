@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday 🎉</title>
+<style>
+  body {
+   background-image: url("https://media1.tenor.com/m/EA8ZZDkSIXkAAAAC/cat.gif");
+    background-size: 1200px 1200px;       
+    background-repeat: no-repeat; 
+    background-position: center;  
+
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: white;
+
+    background-color: black;
+  }
+  
+  h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #66a3ff;
+    font-size: 50px;
+    -webkit-text-stroke: 2px black;
+    border: #ff4f6d;
+    animation: pop 1s infinite alternate;
+  }
+  @keyframes pop {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }
+  .message {
+    display: none;
+    margin-top: 20px;
+   
+    color: #0b3e09;
+    
+    font-size: 20px;
+    text-shadow: 
+     2px 2px 0 #ff0000,
+    
+  }
+  button {
+    background-color: #ff4f6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<h1>🎉 Happy Birthday, Diya ! 🎂</h1>
+<p>thayathe button thod (prethyekich onnumilla)</p>
+<button onclick="showMessage()">Open Surprise 💝</button>
+
+<div class="message" id="msg">
+  <p>may your bday be the start of a year filled with peace and happiness 💕(i know ts was cringe)<br>
+  btw,hridayam niranja pirannal ashamsakal  🥳</p><br>
+  
+  <img src= "https://media.tenor.com/38aGDkTKEloAAAAi/birthday-happy-birthday.gif"width="300">
+</div>
+
+<audio autoplay loop>
+  <source src="https://pixabay.com/music/beats-highest-in-the-room-245009/" type="audio/mp3">
+</audio>
+
+
+
+<script>
+function showMessage() {
+  document.getElementById("msg").style.display = "block";
+  alert("🎉 20 bayas , kelavi avan aayi ");
+}
+</script>
+
+</body>
+</html>
